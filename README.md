@@ -10,3 +10,4 @@
 
 2022 1.6 阿里云服务网格 在ASM中通过EnvoyFilter添加HTTP响应头 https://www.alibabacloud.com/help/zh/doc-detail/158520.htm
 2022 4.2 linux几种软件的安装总结
+2022.7.13 https://www.cnblogs.com/qiuhom-1874/p/14161950.html  kube-proxy会创建iptables规则直接捕获到达Clusterip和port的流量，并将其重定向至当前service对象的后端pod资源
