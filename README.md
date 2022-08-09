@@ -12,3 +12,4 @@
 2022 4.2 linux几种软件的安装总结
 2022.7.13 https://www.cnblogs.com/qiuhom-1874/p/14161950.html  kube-proxy会创建iptables规则直接捕获到达Clusterip和port的流量，并将其重定向至当前service对象的后端pod资源
 2022.7.15  https://www.cnblogs.com/qiuhom-1874/p/14130540.html 对于service来说，在k8s上创建service，从本质上讲就是创建iptables或ipvs规则；
+2022.8.9  jsonpath https://www.cnblogs.com/Zhan-W/p/15650408.html
