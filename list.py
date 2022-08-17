@@ -17,3 +17,6 @@
 2022.08.15
 http响应头安全策略（nginx版） https://blog.csdn.net/liulangdewoniu/article/details/116459468
 Web 前端安全问题 - XSS、CSRF、界面操作劫持 https://blog.csdn.net/lhz_333/article/details/123580912
+2022.08.17
+DaemonSet控制器的主要作用是管理守护进程类的Pod，通常用于在每个节点需要运行一个这样的Pod场景；比如我们要收集日志到es中，我们就可以使用这种控制器在每个节点上运行一个Pod；
+job控制器主要作用是用来运行一个或多个pod来执行任务，当任务执行完成后，自动退出，如果在执行任务过程中pod故障了，job控制器会根据重启策略将其进行重启，直到任务完成pod正常退出；如果重启策略为Never，则pod异常后将不再重启，它会重新创建一个新pod再次执行任务，最后直到任务完成正常退出；
