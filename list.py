@@ -22,3 +22,4 @@ DaemonSet控制器的主要作用是管理守护进程类的Pod，通常用于�
 job控制器主要作用是用来运行一个或多个pod来执行任务，当任务执行完成后，自动退出，如果在执行任务过程中pod故障了，job控制器会根据重启策略将其进行重启，直到任务完成pod正常退出；如果重启策略为Never，则pod异常后将不再重启，它会重新创建一个新pod再次执行任务，最后直到任务完成正常退出；
 
 2022.8.23 docker 安装mongo 存储socore的json 数据https://www.jianshu.com/p/18c6378e1168
+2022.08.27  python列表list的截取问题 https://www.cnblogs.com/ljzblog/p/11255832.html
